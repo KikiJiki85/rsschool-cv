@@ -13,12 +13,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #FFF5E4;
 }
 
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.header,.footer {
+    background-color: #FFF5E4;
 }
 
 .nav-list {
@@ -36,7 +39,7 @@ body {
     color: #FF9494;
 }
 
-.nav-link:hover {
+.nav-link:hover,.rs-logo:hover {
     background-color: #FFE3E1;
 }
 
@@ -54,3 +57,23 @@ body {
         width: 100%;
     }
 }
+
+.profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.rs-logo {
+    display: inline-block;
+}
+
+.rs-logo img {
+    height: 70px;
+}
+

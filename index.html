@@ -59,20 +59,15 @@
         <h2 class="section-title">Code example</h2>
         <pre>
           <code>
-            menuComponent.setChangeHandler((menuItem) => {
-              switch (menuItem) {
-                case MenuItem.TABLE:
-                  menuComponent.setActiveItem(MenuItem.TABLE);
-                  tripController.show();
-                  statisticsComponent.hide();
-                  break;
-                case MenuItem.STATS:
-                  menuComponent.setActiveItem(MenuItem.STATS);
-                  statisticsComponent.show();
-                  tripController.hide();
-                  break;
+            var capitals = function (word) {
+              let a = word.split('')
+              let arr=[]
+              for (let i=0;i<=word.length;i++){
+                if(a[i]===a[i].toUpperCase()){
+                  arr.push(i)
+                }
               }
-            });
+              return arr};
           </code>
         </pre>
       </section>

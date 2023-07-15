@@ -3,8 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Aleksey Vaskin</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/img/favicon.ico?v=2">
 </head>
 <body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contact me</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About myself</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English level</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section profile" id="profile">
+        <img src="assets/img/avatar.png" alt="Aleksey Vaskin photo">
+        <div class="profile-description">
+          <h1 class="section-title">Aleksey Vaskin</h1>
+          <p>Front-end developer</p>
+        </div>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contact me</h2>
+        <ul>
+          <li>Phone number: <a href="tel:+79196745599">+79196745599</a></li>
+          <li>e-mail: <a href="mailto:alzor85@gmail.com">alzor85@gmail.com</a></li>
+          <li><a href="https://github.com/KikiJiki85">Github profile</a></li>
+          <li><a href="https://www.linkedin.com/in/alvaskin/">LinkedIn</a></li>
+        </ul>
+      </section>
+      <section class="section" id="about">
+        <h2 class="section-title">About myself</h2>
+        <p>I worked as a construction engineer for about 10 years and decided to change career. I have experience in web development in my spare time from my main job. Now I decided to switch completely to web development.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>React basics</li>
+          <li>Git</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code example</h2>
+        <pre>
+          <code>
+            var capitals = function (word) {
+              let a = word.split('')
+              let arr=[]
+              for (let i=0;i &lt; word.length;i++){
+                if(a[i]===a[i].toUpperCase()){
+                  arr.push(i)
+                }
+              }
+              return arr};
+          </code>
+        </pre>
+      </section>
+      <section class="section" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <ul>
+          <li><a href="https://github.com/KikiJiki85/1166169-device-26">Personal project Device</a></li>
+          <li><a href="https://github.com/KikiJiki85/1166169-sedona-18">Personal project Sedona</a></li>
+          <li>Internship in htmlacademy 2021</li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul>
+          <li>Bachelor degree in Chuvash State University 2006, IT engineer</li>
+          <li>Htmlacademy Profession “React Developer” 2020</li>
+        </ul>
+      </section>
+      <section class="section" id="english">
+        <h2 class="section-title">English level</h2>
+        <p>B2 - upper intermediate</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <a href="https://rs.school/js" class="rs-logo">
+        <img src="assets/img/rs_school_js.png" alt="rsschool-logo">
+      </a>
+      <p class="footer-copyright"><a href="https://github.com/KikiJiki85">Aleksey Vaskin</a> 2023©</p>
+    </div>
+  </footer>
 </body>
 </html>
